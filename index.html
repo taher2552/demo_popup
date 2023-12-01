@@ -13,40 +13,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  <link rel="stylesheet" type="text/css" href="asset_mobile/css/mob_academy_register.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/mob_academy_register.css" />
 </head>
 
 <style>
-  /* Style for the modal */
-  .custom-modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
-    z-index: 1000;
-  }
 
-
-
-  .modal-close {
-    color: red;
-    float: right;
-    font-size: 28px;
-    margin-right: 1rem;
-  }
-
-  .modal-close:hover,
-  .modal-close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
 </style>
 
 <body>
@@ -1193,7 +1164,7 @@
     <section class="mob_login_container">
       <span class="modal-close">X</span>
       <div class="mob_top_flex">
-        <img src="asset_mobile/images/logo.svg" alt="">
+        <img src="assets/images/logo.svg" alt="">
       </div>
 
       <div class="mob_login_account_wrapper">
@@ -1238,36 +1209,6 @@
 
       <!-- input fields for individual sign up ends  -->
 
-
-      <!-- input fields for institute sign up  -->
-
-      <div class="mob_login_input institute-fields">
-        <input type="text" placeholder="Enter Institute name" class="mob_login">
-        <input type="text" placeholder="Owner or Contact Person’s Name">
-        <input type="text" placeholder="Enter Your Email">
-      </div>
-
-      <div class="mob_login_wrapper">
-        <div class="mob_phone_input institute-fields-2">
-          <div class="mob_phone_select">
-            <select name="">
-              <option value="">India(+91)</option>
-            </select>
-          </div>
-
-          <input type="number" name="" placeholder="Enter Your Phone" id="">
-        </div>
-      </div>
-
-
-
-      <!-- input fields for institute sign up ends -->
-
-
-
-
-
-
       <div class="mob_login_check">
         <label class="mob_login_label_checkbox">
           <input type="checkbox" checked />
@@ -1311,36 +1252,8 @@
 
   <!-- modal popup ends -->
 
-  <script>
-    // Get the modal element
-    var customModal = document.getElementById("customModal");
 
-    // Get the button that opens the modal
-    var openCustomModalBtn = document.getElementById("openCustomModal");
-
-    // Get the close button element
-    var closeCustomModalBtn = document.getElementsByClassName("modal-close")[0];
-
-    // Function to open the modal
-    openCustomModalBtn.onclick = function () {
-      customModal.style.display = "block";
-    };
-
-    // Function to close the modal
-    closeCustomModalBtn.onclick = function () {
-      customModal.style.display = "none";
-    };
-
-    // Close the modal when clicking outside the modal content
-    window.onclick = function (event) {
-      if (event.target == customModal) {
-        customModal.style.display = "none";
-      }
-    };
-
-  </script>
-
-  <script src="asset_mobile/js/mobile_signup.js"></script>
+  <script src="assets/js/demo_js.js"></script>
 </body>
 
 </html>
