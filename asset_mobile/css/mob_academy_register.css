@@ -26,11 +26,14 @@
   border: 1px solid grey;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
   width: 100%;
-  height: 50vh;
-  overflow: scroll;
   background-color: #fff;
-  margin-top: 150px;
+  margin-top: 60px;
   margin-bottom: 100px;
+}
+
+#mySidenav{
+  background-color: #0172ff !important;
+  z-index: -1000;
 }
 
 .mob_photo_container {
