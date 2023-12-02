@@ -24,11 +24,12 @@
   flex-direction: column;
   position: relative;
   border: 1px solid grey;
-  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
   width: 100%;
   background-color: #fff;
   margin-top: 80px;
   margin-bottom: 100px;
+  border-radius: 20px;
 }
 
   /* Style for the modal */
@@ -180,7 +181,6 @@ height: 3.625rem;
 
 .mob_phone_select select {
   outline: none;
-  padding: 0.5rem 1rem;
   border-radius: 0.3125rem;
   border: 1px solid #dcdcdc;
   background: #fff;
@@ -207,11 +207,14 @@ height: 3.625rem;
   border-radius: 0.3125rem;
   border: 1px solid #dcdcdc;
   background: #fff;
-  padding: 0.5rem 1rem;
   outline: none;
   margin-bottom: 0.94rem;
   width: 100%;
   margin-left: 1rem;
+}
+
+.mob_phone_select{
+  margin-top: -0.5rem;
 }
 
 .mob_login_label_checkbox {

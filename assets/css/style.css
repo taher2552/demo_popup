@@ -150,8 +150,7 @@ ul {
 [type="search"],
 [type="tel"],
 [type="url"],
-[type="week"],
-select {
+[type="week"]{
   width: 100%;
   background-color: #ffffff;
   border: 1px solid #dcdcdc;
@@ -162,6 +161,7 @@ select {
   text-transform: capitalize;
   font-family: "DM Sans", sans-serif;
 }
+
 
 label {
   color: #515c61;
@@ -294,11 +294,7 @@ label {
   margin-right: 0;
 }
 
-input[type="radio"] {
-  visibility: hidden; /* 1 */
-  height: 0; /* 2 */
-  width: 0; /* 2 */
-}
+
 
 input[type="radio"]:checked + label {
   background-color: #d0ddff;
