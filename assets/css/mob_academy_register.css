@@ -18,18 +18,19 @@
 }
 
 .mob_login_container {
-  max-width:400px;
+  max-width:500px;
+  height: 370px;
   margin: 0 auto;
-  padding-top: 0.8rem;
+  padding: 1rem;
   flex-direction: column;
   position: relative;
   border: 1px solid grey;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
   width: 100%;
   background-color: #fff;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-bottom: 100px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
   /* Style for the modal */
@@ -50,11 +51,15 @@
 
   .modal-close {
     color: red;
-    font-size: 28px;
     margin-right: 1rem;
     position: absolute;
     right: 0;
-    top:1%;
+    top:2%;
+  }
+
+  .modal-close img{
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .modal-close:hover,
@@ -1591,3 +1596,155 @@ cursor: pointer;
   }
 }
 
+
+/* modal new css  */
+
+.modal_acc{
+  color:#2e054e;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+modal_btn_div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.modal_btn{
+  padding:12px 25px;
+  width:60%;
+  background-color:#ed264f;
+  outline: none;
+  border-radius: 100px;
+  color:#fff;
+  margin-left: 20%;
+  margin-bottom: 1rem;cursor: pointer;
+  border:1px solid transparent !important;
+}
+.modal_btn:hover{
+  background-color:#fff;
+  border: 1px solid #ed264f !important;
+  border-radius: 100px;
+  color:#ed264f;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal_google{
+  color:#007bff;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 120px;
+
+}
+
+.modal_google img{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right:0.5rem;
+  margin-left: 0.1rem;
+}
+
+.modal_bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+
+.modal_login_using{
+  height: 19px;
+  width: 146px;
+  border: 1px solid #dbdbdb;
+  border-radius: 15px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  background: #f6f6f6;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color:#aaa;
+}
+
+.modal_login_using {
+  padding: 0 10px; /* Adjust padding as needed */
+}
+
+
+.phone-input-container {
+  display: flex;
+  border: 1px solid #aaa;
+  border-radius: 100px;
+  overflow: hidden;
+  width: 450px; /* Adjust width as needed */
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+
+.country-code {
+  border-right: 1px solid #aaa;
+}
+
+
+.modal_select {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: min-content;
+}
+
+.phn_input {
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  width: 100%;
+}
+
+.country-code,
+.phone-number {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10px; /* Adjust padding as needed */
+  margin-right: -20px; /* Adjust negative margin as needed */
+}
+
+
+.country-code img {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+.modal_select{
+ margin-left: -20px;
+ width: 85px;
+}
+
+
+
+
+/* modal new css ends */
