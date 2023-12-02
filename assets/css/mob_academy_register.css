@@ -50,14 +50,16 @@
 
   .modal-close {
     color: red;
-    float: right;
     font-size: 28px;
     margin-right: 1rem;
+    position: absolute;
+    right: 0;
+    top:1%;
   }
 
   .modal-close:hover,
   .modal-close:focus {
-    color: black;
+    color: red;
     text-decoration: none;
     cursor: pointer;
   }
@@ -76,8 +78,8 @@
 }
 
 .mob_top_flex img{
-  width: 8.8125rem;
-height: 3.625rem;
+  width: 6.8125rem;
+height: 2.625rem;
 }
 
 .mob_photo_logo {
@@ -91,7 +93,7 @@ height: 3.625rem;
   font-family: DM Sans;
   font-size: 1.375rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5rem;
   text-transform: capitalize;
 }
@@ -309,7 +311,6 @@ height: 3.625rem;
   flex-direction: column;
   margin-left: 1rem;
   margin-right: 1rem;
-  width: 94%;
 }
 
 .mob_login_input input {
